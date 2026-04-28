@@ -34,7 +34,15 @@ var heroData = [
     description:
       'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for our operations—coordinating logistics, global trade, and client relations with professionalism, efficiency, and international standards.',
     link: 'https://www.twitter.com'
-  }
+  },
+  {
+    id: 5,
+    image: require('../assets/images/ch.jpeg'),
+    title: 'Charcoal',
+    description:
+      'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution..',
+    link: 'https://www.twitter.com'
+  },
 ];
 
 function AppHero() {
