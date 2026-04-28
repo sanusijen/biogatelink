@@ -62,7 +62,7 @@ function AppHeader() {
               alt="logo"
               style={{
                 height: '55px',
-                borderRadius: '8px',
+                
               }}
             />
           </Navbar.Brand>
