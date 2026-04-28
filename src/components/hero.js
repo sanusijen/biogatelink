@@ -26,6 +26,14 @@ var heroData = [
     description:
       'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution..',
     link: 'https://www.twitter.com'
+  },
+    {
+    id: 4,
+    image: require('../assets/images/img1.jpeg'),
+    title: 'Coperate office',
+    description:
+      'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for our operations—coordinating logistics, global trade, and client relations with professionalism, efficiency, and international standards.',
+    link: 'https://www.twitter.com'
   }
 ];
 
