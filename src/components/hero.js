@@ -1,16 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 var heroData = [
+
   {
     id: 1,
-    image: require('../assets/images/bio.jpeg'),
-    title: 'BIOGATE International Links Ltd',
-    description:
-      'Delivering excellence in logistics, global trade, manufacturing, and technology solutions with trusted professionalism and international standards.',
-    link: 'https://www.google.com'
-  },
-  {
-    id: 2,
     image: require('../assets/images/zobo.jpeg'),
     title: 'Premium Hibiscus Export',
     description:
@@ -18,11 +11,20 @@ var heroData = [
     link: 'https://www.facebook.com'
   },
   {
-    id: 3,
-    image: require('../assets/images/phones.jpeg'),
-    title: 'Mobile Phone Distribution',
+    id: 2,
+    image: require('../assets/images/sesame.jpeg'),
+    title: 'Sesame Seed',
     description:
-      'Supplying a wide range of smartphones and mobile devices with guaranteed quality, affordability, and fast delivery.',
+      'We supply premium-quality sesame seeds for food, oil production, and export markets, ensuring purity, consistency, and reliable global distribution with trusted standards.',
+    link: 'https://www.google.com'
+  },
+  
+  {
+    id: 3,
+    image: require('../assets/images/charcoal.jpeg'),
+    title: 'Charcoal',
+    description:
+      'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution..',
     link: 'https://www.twitter.com'
   }
 ];
