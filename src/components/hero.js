@@ -21,7 +21,7 @@ var heroData = [
   
   {
     id: 3,
-    image: require('../assets/images/charcoal.jpeg'),
+    image: require('../assets/images/char.jpeg'),
     title: 'Charcoal',
     description:
       'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution..',
