@@ -68,8 +68,6 @@ var heroData = [
     'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely cargo handling, and reliable delivery across local and international routes.',
   link: 'https://www.facebook.com'
 },
-
-
 {
   id: 9,
   image: require('../assets/images/plas.jpeg'),
