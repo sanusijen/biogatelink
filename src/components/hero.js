@@ -77,10 +77,7 @@ var heroData = [
   description:
     'We manufacture durable and high-quality plastic containers for storage, packaging, and industrial use, ensuring strength, safety, and long-lasting performance.',
   link: 'https://www.facebook.com'
-},
-
-
- 
+}
 ];
 
 function AppHero() {
