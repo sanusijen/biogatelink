@@ -60,6 +60,24 @@ var heroData = [
     'Our sesame seeds are carefully sourced and cleaned to meet international standards, making them ideal for export and industrial use.',
   link: 'https://www.facebook.com'
 },
+{
+  id: 8,
+  image: require('../assets/images/clear.jpeg'),
+  title: 'Clearing and Forwarding Services',
+  description:
+    'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely cargo handling, and reliable delivery across local and international routes.',
+  link: 'https://www.facebook.com'
+},
+
+
+{
+  id: 10,
+  image: require('../assets/images/plas.jpeg'),
+  title: 'Plastic Container Production',
+  description:
+    'We manufacture durable and high-quality plastic containers for storage, packaging, and industrial use, ensuring strength, safety, and long-lasting performance.',
+  link: 'https://www.facebook.com'
+},
 
 
  
