@@ -61,14 +61,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
 
-{
-  id: 8,
-  image: require('../assets/images/plastic.jpeg'),
-  title: 'Plastic Container Production',
-  description:
-    'We manufacture durable and high-quality plastic containers for domestic and industrial use, designed for strength, safety, and long-term reliability.',
-  link: 'https://www.facebook.com'
-}
+
  
 ];
 
