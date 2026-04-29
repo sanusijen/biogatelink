@@ -20,7 +20,7 @@ var heroData = [
 },
 {
   id: 4,
-  image: require('../assets/images/charcoal.jpeg'),
+  image: require('../assets/images/char.jpeg'),
   title: 'Export Grade Charcoal',
   description:
     'Our export-grade charcoal is carefully processed to deliver consistent performance, eco-friendly production, and dependable supply for international markets.',
@@ -37,7 +37,7 @@ var heroData = [
 },
 {
   id: 6,
-  image: require('../assets/images/hibiscus.jpeg'),
+  image: require('../assets/images/zobo.jpeg'),
   title: 'Dried Hibiscus Supply',
   description:
     'Our dried hibiscus is processed under strict standards to maintain purity, freshness, and suitability for export and large-scale production.',
@@ -54,7 +54,7 @@ var heroData = [
 },
 {
   id: 8,
-  image: require('../assets/images/sesame.jpeg'),
+  image: require('../assets/images/ses.jpeg'),
   title: 'Natural Sesame Supply',
   description:
     'Our sesame seeds are carefully sourced and cleaned to meet international standards, making them ideal for export and industrial use.',
@@ -80,7 +80,7 @@ var heroData = [
 
 {
   id: 9,
-  image: require('../assets/images/clearing.jpeg'),
+  image: require('../assets/images/clear.jpeg'),
   title: 'Clearing and Forwarding Services',
   description:
     'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely delivery, and reliable logistics solutions.',
