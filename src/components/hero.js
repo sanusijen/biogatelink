@@ -71,7 +71,7 @@ var heroData = [
 
 
 {
-  id: 10,
+  id: 9,
   image: require('../assets/images/plas.jpeg'),
   title: 'Plastic Container Production',
   description:
