@@ -68,25 +68,7 @@ var heroData = [
   description:
     'We manufacture durable and high-quality plastic containers for domestic and industrial use, designed for strength, safety, and long-term reliability.',
   link: 'https://www.facebook.com'
-},
-{
-  id: 9,
-  image: require('../assets/images/plastic.jpeg'),
-  title: 'Industrial Plastic Solutions',
-  description:
-    'Our plastic production services deliver customizable containers tailored for storage, packaging, and logistics, meeting modern industry standards.',
-  link: 'https://www.facebook.com'
-},
-
-{
-  id: 10,
-  image: require('../assets/images/clear.jpeg'),
-  title: 'Clearing and Forwarding Services',
-  description:
-    'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely delivery, and reliable logistics solutions.',
-  link: 'https://www.facebook.com'
 }
- 
  
 ];
 
