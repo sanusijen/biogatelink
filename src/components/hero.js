@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
+import { FaWhatsapp } from 'react-icons/fa';
 
 var heroData = [
-
   {
     id: 1,
     image: require('../assets/images/zobo.jpeg'),
@@ -12,37 +12,20 @@ var heroData = [
   },
   {
     id: 2,
-    image: require('../assets/images/sesame.jpeg'),
-    title: 'Sesame Seed',
+    image: require('../assets/images/charcoal.jpeg'),
+    title: 'BIOGATE International Links Ltd',
     description:
-      'We supply premium-quality sesame seeds for food, oil production, and export markets, ensuring purity, consistency, and reliable global distribution with trusted standards.',
+      'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution.',
     link: 'https://www.google.com'
   },
-  
   {
     id: 3,
-    image: require('../assets/images/char.jpeg'),
-    title: 'Charcoal',
+    image: require('../assets/images/phones.jpeg'),
+    title: 'Mobile Phone Distribution',
     description:
-      'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution..',
+      'Supplying a wide range of smartphones and mobile devices with guaranteed quality, affordability, and fast delivery.',
     link: 'https://www.twitter.com'
-  },
-    {
-    id: 4,
-    image: require('../assets/images/img1.jpeg'),
-    title: 'Coperate office',
-    description:
-      'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for our operations—coordinating logistics, global trade, and client relations with professionalism, efficiency, and international standards.',
-    link: 'https://www.twitter.com'
-  },
-  {
-    id: 5,
-    image: require('../assets/images/ch.jpeg'),
-    title: 'Charcoal',
-    description:
-      'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution..',
-    link: 'https://www.twitter.com'
-  },
+  }
 ];
 
 function AppHero() {
@@ -90,12 +73,35 @@ function AppHero() {
   return (
     <section id="home" style={{ position: 'relative' }}>
 
-      <Carousel fade interval={4000}>
+      {/* ✅ WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/2348012345678"  // 🔥 PUT YOUR REAL NUMBER HERE
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: 'fixed',
+          width: '60px',
+          height: '60px',
+          bottom: '20px',
+          right: '20px',
+          backgroundColor: '#25D366',
+          color: '#fff',
+          borderRadius: '50%',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          fontSize: '30px',
+          boxShadow: '2px 2px 5px rgba(0,0,0,0.3)',
+          zIndex: 9999   // 🔥 VERY IMPORTANT
+        }}
+      >
+        <FaWhatsapp size={30} />
+      </a>
 
+      <Carousel fade interval={4000}>
         {heroData.map(hero => (
           <Carousel.Item key={hero.id}>
 
-            {/* Image */}
             <img
               className="d-block w-100"
               src={hero.image}
@@ -107,11 +113,8 @@ function AppHero() {
               }}
             />
 
-            {/* Caption Overlay */}
             <Carousel.Caption style={captionStyle}>
-
               <h2 style={titleStyle}>{hero.title}</h2>
-
               <p style={descStyle}>{hero.description}</p>
 
               <a
@@ -127,7 +130,6 @@ function AppHero() {
 
           </Carousel.Item>
         ))}
-
       </Carousel>
 
     </section>
