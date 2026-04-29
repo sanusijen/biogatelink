@@ -10,22 +10,84 @@ var heroData = [
       'We supply high-quality hibiscus flowers for food, beverage, and herbal industries with reliable global distribution.',
     link: 'https://www.facebook.com'
   },
-  {
-    id: 2,
-    image: require('../assets/images/charcoal.jpeg'),
-    title: 'BIOGATE International Links Ltd',
-    description:
-      'We supply high-quality charcoal suitable for cooking, heating, and industrial use, offering consistent burn performance and reliable global distribution.',
-    link: 'https://www.google.com'
-  },
-  {
-    id: 3,
-    image: require('../assets/images/phones.jpeg'),
-    title: 'Mobile Phone Distribution',
-    description:
-      'Supplying a wide range of smartphones and mobile devices with guaranteed quality, affordability, and fast delivery.',
-    link: 'https://www.twitter.com'
-  }
+   {
+  id: 2,
+  image: require('../assets/images/ch.jpeg'),
+  title: 'Premium Charcoal Supply',
+  description:
+    'We supply high-quality charcoal for cooking, heating, and industrial use, ensuring long-lasting burn, low ash content, and reliable global distribution.',
+  link: 'https://www.facebook.com'
+},
+{
+  id: 4,
+  image: require('../assets/images/charcoal.jpeg'),
+  title: 'Export Grade Charcoal',
+  description:
+    'Our export-grade charcoal is carefully processed to deliver consistent performance, eco-friendly production, and dependable supply for international markets.',
+  link: 'https://www.facebook.com'
+},
+
+{
+  id: 3,
+  image: require('../assets/images/hibiscus.jpeg'),
+  title: 'Premium Hibiscus Export',
+  description:
+    'We provide high-quality hibiscus flowers for food, beverage, and herbal industries, ensuring rich color, natural taste, and global supply reliability.',
+  link: 'https://www.facebook.com'
+},
+{
+  id: 6,
+  image: require('../assets/images/hibiscus.jpeg'),
+  title: 'Dried Hibiscus Supply',
+  description:
+    'Our dried hibiscus is processed under strict standards to maintain purity, freshness, and suitability for export and large-scale production.',
+  link: 'https://www.facebook.com'
+},
+
+{
+  id: 5,
+  image: require('../assets/images/sesame.jpeg'),
+  title: 'Sesame Seed Export',
+  description:
+    'We supply premium sesame seeds suitable for oil extraction and food processing, ensuring high purity, excellent oil content, and global distribution.',
+  link: 'https://www.facebook.com'
+},
+{
+  id: 8,
+  image: require('../assets/images/sesame.jpeg'),
+  title: 'Natural Sesame Supply',
+  description:
+    'Our sesame seeds are carefully sourced and cleaned to meet international standards, making them ideal for export and industrial use.',
+  link: 'https://www.facebook.com'
+},
+
+{
+  id: 7,
+  image: require('../assets/images/plastic.jpeg'),
+  title: 'Plastic Container Production',
+  description:
+    'We manufacture durable and high-quality plastic containers for domestic and industrial use, designed for strength, safety, and long-term reliability.',
+  link: 'https://www.facebook.com'
+},
+{
+  id: 10,
+  image: require('../assets/images/plastic.jpeg'),
+  title: 'Industrial Plastic Solutions',
+  description:
+    'Our plastic production services deliver customizable containers tailored for storage, packaging, and logistics, meeting modern industry standards.',
+  link: 'https://www.facebook.com'
+},
+
+{
+  id: 9,
+  image: require('../assets/images/clearing.jpeg'),
+  title: 'Clearing and Forwarding Services',
+  description:
+    'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely delivery, and reliable logistics solutions.',
+  link: 'https://www.facebook.com'
+}
+ 
+ 
 ];
 
 function AppHero() {
