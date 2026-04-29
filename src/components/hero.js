@@ -19,7 +19,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
 {
-  id: 4,
+  id: 3,
   image: require('../assets/images/char.jpeg'),
   title: 'Export Grade Charcoal',
   description:
@@ -28,7 +28,7 @@ var heroData = [
 },
 
 {
-  id: 3,
+  id: 4,
   image: require('../assets/images/hibiscus.jpeg'),
   title: 'Premium Hibiscus Export',
   description:
@@ -36,7 +36,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
 {
-  id: 6,
+  id: 5,
   image: require('../assets/images/zobo.jpeg'),
   title: 'Dried Hibiscus Supply',
   description:
@@ -45,7 +45,7 @@ var heroData = [
 },
 
 {
-  id: 5,
+  id: 6,
   image: require('../assets/images/sesame.jpeg'),
   title: 'Sesame Seed Export',
   description:
@@ -53,7 +53,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
 {
-  id: 8,
+  id: 7,
   image: require('../assets/images/ses.jpeg'),
   title: 'Natural Sesame Supply',
   description:
@@ -62,7 +62,7 @@ var heroData = [
 },
 
 {
-  id: 7,
+  id: 8,
   image: require('../assets/images/plastic.jpeg'),
   title: 'Plastic Container Production',
   description:
@@ -70,7 +70,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
 {
-  id: 10,
+  id: 9,
   image: require('../assets/images/plastic.jpeg'),
   title: 'Industrial Plastic Solutions',
   description:
@@ -79,7 +79,7 @@ var heroData = [
 },
 
 {
-  id: 9,
+  id: 10,
   image: require('../assets/images/clear.jpeg'),
   title: 'Clearing and Forwarding Services',
   description:
