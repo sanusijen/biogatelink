@@ -40,6 +40,29 @@ function AppHeader() {
           background: 'linear-gradient(90deg, #002244, #004080)',
         }}
       >
+         <a
+        href="https://wa.me/2348034574285"  // 🔥 PUT YOUR REAL NUMBER HERE
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: 'fixed',
+          width: '60px',
+          height: '60px',
+          bottom: '20px',
+          right: '20px',
+          backgroundColor: '#25D366',
+          color: '#fff',
+          borderRadius: '50%',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          fontSize: '30px',
+          boxShadow: '2px 2px 5px rgba(0,0,0,0.3)',
+          zIndex: 9999   // 🔥 VERY IMPORTANT
+        }}
+      >
+        <FaWhatsapp size={30} />
+      </a>
        <a
   href="https://www.facebook.com/share/1TwUHEAsiy/"
   target="_blank"
