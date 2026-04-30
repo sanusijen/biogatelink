@@ -36,7 +36,7 @@ var heroData = [
 },
 {
   id: 5,
-  image: require('../assets/images/sesame.jpeg'), // make sure this image exists
+  image: require('../assets/images/ses.jpeg'), // make sure this image exists
   title: 'Premium Sesame Seed Export',
   description:
     'We supply high-quality sesame seeds for food processing and oil production, ensuring high purity, excellent oil content, and reliable global distribution.',
