@@ -40,15 +40,26 @@ function AppHeader() {
           background: 'linear-gradient(90deg, #002244, #004080)',
         }}
       >
-        <a href="https://facebook.com" target="_blank" rel="noreferrer" style={iconStyle}>
-          <FaFacebookF />
-        </a>
-        <a href="https://twitter.com/eai_ruralschool" target="_blank" rel="noreferrer" style={iconStyle}>
+       <a
+  href="https://www.facebook.com/share/1TwUHEAsiy/"
+  target="_blank"
+  rel="noreferrer"
+  style={iconStyle}
+>
+  <FaFacebookF />
+</a>
+        <a href="https://twitter.com" target="_blank" rel="noreferrer" style={iconStyle}>
           <FaTwitter />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer" style={iconStyle}>
-          <FaInstagram />
-        </a>
+     <a
+  href="https://www.instagram.com/biogateinternationallinks?igsh=MWkycDJxNnoybmFxOA=="
+  target="_blank"
+  rel="noreferrer"
+  style={iconStyle}
+>
+  <FaInstagram />
+</a>
+  
       </div>
 
       {/* Main Navbar */}
