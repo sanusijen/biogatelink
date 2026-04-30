@@ -61,7 +61,7 @@ var heroData = [
 },
   {
   id: 8,
-  image: require('../assets/images/img1.jpeg'), // make sure this image exists
+  image: require('../assets/images/build.jpeg'), // make sure this image exists
   title: 'Corporate Office',
   description:
     'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
