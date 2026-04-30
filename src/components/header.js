@@ -28,19 +28,7 @@ function AppHeader() {
 
   return (
     <div>
-
-      {/* Top Social Bar */}
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'flex-end',
-          gap: '15px',
-          padding: '10px 40px',
-          fontSize: '1.1rem',
-          background: 'linear-gradient(90deg, #002244, #004080)',
-        }}
-      >
-         <a
+ <a
         href="https://wa.me/2348034574285"  // 🔥 PUT YOUR REAL NUMBER HERE
         target="_blank"
         rel="noopener noreferrer"
@@ -63,6 +51,18 @@ function AppHeader() {
       >
         <FaWhatsapp size={30} />
       </a>
+      {/* Top Social Bar */}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'flex-end',
+          gap: '15px',
+          padding: '10px 40px',
+          fontSize: '1.1rem',
+          background: 'linear-gradient(90deg, #002244, #004080)',
+        }}
+      >
+        
        <a
   href="https://www.facebook.com/share/1TwUHEAsiy/"
   target="_blank"
@@ -71,7 +71,7 @@ function AppHeader() {
 >
   <FaFacebookF />
 </a>
-        <a href="https://twitter.com" target="_blank" rel="noreferrer" style={iconStyle}>
+        <a href="https://x.com/BiogateInternat" target="_blank" rel="noreferrer" style={iconStyle}>
           <FaTwitter />
         </a>
      <a
