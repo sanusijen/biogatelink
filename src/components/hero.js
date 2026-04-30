@@ -125,7 +125,7 @@ function AppHero() {
 
       {/* ✅ WhatsApp Floating Button */}
       <a
-        href="https://wa.me/2348012345678"  // 🔥 PUT YOUR REAL NUMBER HERE
+        href="https://wa.me/2348034574285"  // 🔥 PUT YOUR REAL NUMBER HERE
         target="_blank"
         rel="noopener noreferrer"
         style={{
