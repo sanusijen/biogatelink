@@ -7,6 +7,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
+  FaWhatsapp   // ✅ FIX: import added
 } from 'react-icons/fa';
 
 function AppHeader() {
@@ -15,10 +16,11 @@ function AppHeader() {
     color: '#fff',
     textDecoration: 'none',
     transition: '0.3s',
+    fontSize: '18px'
   };
 
   const navLinkStyle = {
-    color: 'navyblue',
+    color: '#fff', // ✅ FIX: navyblue is not valid
     fontSize: '16px',
     fontWeight: '600',
     letterSpacing: '0.5px',
@@ -28,76 +30,75 @@ function AppHeader() {
 
   return (
     <div>
- <a
-        href="https://wa.me/2348034574285"  // 🔥 PUT YOUR REAL NUMBER HERE
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          position: 'fixed',
-          width: '60px',
-          height: '60px',
-          bottom: '20px',
-          right: '20px',
-          backgroundColor: '#25D366',
-          color: '#fff',
-          borderRadius: '50%',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          fontSize: '30px',
-          boxShadow: '2px 2px 5px rgba(0,0,0,0.3)',
-          zIndex: 9999   // 🔥 VERY IMPORTANT
-        }}
-      >
-        <FaWhatsapp size={30} />
-      </a>
-      {/* Top Social Bar */}
+
+      {/* ✅ Top Social Bar (Now includes WhatsApp) */}
       <div
         style={{
           display: 'flex',
           justifyContent: 'flex-end',
-          gap: '15px',
+          alignItems: 'center',
+          gap: '18px',
           padding: '10px 40px',
-          fontSize: '1.1rem',
           background: 'linear-gradient(90deg, #002244, #004080)',
         }}
       >
-        
-       <a
-  href="https://www.facebook.com/share/1TwUHEAsiy/"
-  target="_blank"
-  rel="noreferrer"
-  style={iconStyle}
->
-  <FaFacebookF />
-</a>
-        <a href="https://x.com/BiogateInternat" target="_blank" rel="noreferrer" style={iconStyle}>
+
+        <a
+          href="https://www.facebook.com/share/1TwUHEAsiy/"
+          target="_blank"
+          rel="noreferrer"
+          style={iconStyle}
+          onMouseEnter={(e) => e.target.style.color = '#1877F2'}
+          onMouseLeave={(e) => e.target.style.color = '#fff'}
+        >
+          <FaFacebookF />
+        </a>
+
+        <a
+          href="https://x.com/BiogateInternat"
+          target="_blank"
+          rel="noreferrer"
+          style={iconStyle}
+          onMouseEnter={(e) => e.target.style.color = '#1DA1F2'}
+          onMouseLeave={(e) => e.target.style.color = '#fff'}
+        >
           <FaTwitter />
         </a>
-     <a
-  href="https://www.instagram.com/biogateinternationallinks?igsh=MWkycDJxNnoybmFxOA=="
-  target="_blank"
-  rel="noreferrer"
-  style={iconStyle}
->
-  <FaInstagram />
-</a>
-  
+
+        <a
+          href="https://www.instagram.com/biogateinternationallinks"
+          target="_blank"
+          rel="noreferrer"
+          style={iconStyle}
+          onMouseEnter={(e) => e.target.style.color = '#E1306C'}
+          onMouseLeave={(e) => e.target.style.color = '#fff'}
+        >
+          <FaInstagram />
+        </a>
+
+        {/* ✅ WhatsApp added properly */}
+        <a
+          href="https://wa.me/2348034574285"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={iconStyle}
+          onMouseEnter={(e) => e.target.style.color = '#25D366'}
+          onMouseLeave={(e) => e.target.style.color = '#fff'}
+        >
+          <FaWhatsapp />
+        </a>
+
       </div>
 
-      {/* Main Navbar */}
+      {/* ✅ Main Navbar */}
       <Navbar expand="lg" style={{ backgroundColor: '#001a33', padding: '15px 0' }}>
         <Container>
 
-          {/* Logo */}
           <Navbar.Brand>
             <img
               src={logo}
               alt="logo"
-              style={{
-                height: '55px',
-                
-              }}
+              style={{ height: '55px' }}
             />
           </Navbar.Brand>
 
@@ -122,6 +123,7 @@ function AppHeader() {
 
         </Container>
       </Navbar>
+
     </div>
   );
 }
