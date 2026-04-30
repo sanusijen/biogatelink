@@ -66,7 +66,7 @@ var heroData = [
   description:
     'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
   link: 'https://www.facebook.com'
-}
+},
 {
   id: 9,
   image: require('../assets/images/zobo.jpeg'),
