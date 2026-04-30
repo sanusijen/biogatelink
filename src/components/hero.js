@@ -35,16 +35,8 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
   
-{
-  id: 5,
-  image: require('../assets/images/sesame.jpeg'),
-  title: 'Sesame Seed Export',
-  description:
-    'We supply premium sesame seeds suitable for oil extraction and food processing, ensuring high purity, excellent oil content, and global distribution.',
-  link: 'https://www.facebook.com'
-},
   {
-  id: 6,
+  id: 5,
   image: require('../assets/images/clear.jpeg'),
   title: 'Clearing and Forwarding Services',
   description:
@@ -52,7 +44,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
   {
-  id: 7,
+  id: 6,
   image: require('../assets/images/plas.jpeg'),
   title: 'Plastic Container Production',
   description:
@@ -60,7 +52,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
   {
-  id: 8,
+  id: 7,
   image: require('../assets/images/build.jpeg'), // make sure this image exists
   title: 'Corporate Office',
   description:
@@ -68,17 +60,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
 {
-  id: 9,
-  image: require('../assets/images/zobo.jpeg'),
-  title: 'Dried Hibiscus Supply',
-  description:
-    'Our dried hibiscus is processed under strict standards to maintain purity, freshness, and suitability for export and large-scale production.',
-  link: 'https://www.facebook.com'
-},
-  
-
-{
-  id: 10,
+  id: 8,
   image: require('../assets/images/ses.jpeg'),
   title: 'Natural Sesame Supply',
   description:
