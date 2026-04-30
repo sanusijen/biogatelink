@@ -59,7 +59,7 @@ var heroData = [
   description:
     'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely cargo handling, and reliable delivery across local and international routes.',
   link: 'https://www.facebook.com'
-},
+}
 
 
 
