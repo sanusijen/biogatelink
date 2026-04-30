@@ -29,7 +29,7 @@ var heroData = [
 
 {
   id: 4,
-  image: require('../assets/images/hib.jpeg'),
+  image: require('../assets/images/wo.jpeg'),
   title: 'Premium Hibiscus Export',
   description:
     'We provide high-quality hibiscus flowers for food, beverage, and herbal industries, ensuring rich color, natural taste, and global supply reliability.',
