@@ -2,8 +2,16 @@ import Carousel from 'react-bootstrap/Carousel';
 import { FaWhatsapp } from 'react-icons/fa';
 
 var heroData = [
-    {
+      {
   id: 1,
+  image: require('../assets/images/building.jpeg'), // make sure this image exists
+  title: 'Corporate Office',
+  description:
+    'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
+  link: 'https://www.facebook.com'
+},
+    {
+  id: 2,
   image: require('../assets/images/ch.jpeg'),
   title: 'Premium Charcoal Supply',
   description:
@@ -11,7 +19,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
   {
-  id: 2,
+  id: 3,
   image: require('../assets/images/chak.jpeg'),
   title: 'Export Grade Charcoal',
   description:
@@ -19,7 +27,7 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
   {
-    id: 3,
+    id: 4,
     image: require('../assets/images/zo.jpeg'),
     title: 'Premium Hibiscus Export',
     description:
@@ -27,7 +35,7 @@ var heroData = [
     link: 'https://www.facebook.com'
   },
 {
-  id: 4,
+  id: 5,
   image: require('../assets/images/wo.jpeg'),
   title: 'Premium Hibiscus Export',
   description:
@@ -36,7 +44,7 @@ var heroData = [
 },
   
   {
-  id: 5,
+  id: 6,
   image: require('../assets/images/clear.jpeg'),
   title: 'Clearing and Forwarding Services',
   description:
@@ -44,21 +52,14 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
   {
-  id: 6,
+  id: 7,
   image: require('../assets/images/plas.jpeg'),
   title: 'Plastic Container Production',
   description:
     'We manufacture durable and high-quality plastic containers for storage, packaging, and industrial use, ensuring strength, safety, and long-lasting performance.',
   link: 'https://www.facebook.com'
 },
-  {
-  id: 7,
-  image: require('../assets/images/build.jpeg'), // make sure this image exists
-  title: 'Corporate Office',
-  description:
-    'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
-  link: 'https://www.facebook.com'
-},
+
 {
   id: 8,
   image: require('../assets/images/ses.jpeg'),
