@@ -20,7 +20,7 @@ function AppHeader() {
   };
 
   const navLinkStyle = {
-    color: '#fff', // ✅ FIX: navyblue is not valid
+    color: 'navyblue', // ✅ FIX: navyblue is not valid
     fontSize: '16px',
     fontWeight: '600',
     letterSpacing: '0.5px',
@@ -42,6 +42,17 @@ function AppHeader() {
           background: 'linear-gradient(90deg, #002244, #004080)',
         }}
       >
+         {/* ✅ WhatsApp added properly */}
+        <a
+          href="https://wa.me/2348034574285"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={iconStyle}
+          onMouseEnter={(e) => e.target.style.color = '#25D366'}
+          onMouseLeave={(e) => e.target.style.color = '#fff'}
+        >
+          <FaWhatsapp />
+        </a>
 
         <a
           href="https://www.facebook.com/share/1TwUHEAsiy/"
@@ -76,17 +87,7 @@ function AppHeader() {
           <FaInstagram />
         </a>
 
-        {/* ✅ WhatsApp added properly */}
-        <a
-          href="https://wa.me/2348034574285"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={iconStyle}
-          onMouseEnter={(e) => e.target.style.color = '#25D366'}
-          onMouseLeave={(e) => e.target.style.color = '#fff'}
-        >
-          <FaWhatsapp />
-        </a>
+       
 
       </div>
 
