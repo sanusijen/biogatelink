@@ -2,31 +2,30 @@ import Carousel from 'react-bootstrap/Carousel';
 import { FaWhatsapp } from 'react-icons/fa';
 
 var heroData = [
-  {
-    id: 1,
-    image: require('../assets/images/zobo.jpeg'),
-    title: 'Premium Hibiscus Export',
-    description:
-      'We supply high-quality hibiscus flowers for food, beverage, and herbal industries with reliable global distribution.',
-    link: 'https://www.facebook.com'
-  },
-   {
-  id: 2,
+    {
+  id: 1,
   image: require('../assets/images/ch.jpeg'),
   title: 'Premium Charcoal Supply',
   description:
     'We supply high-quality charcoal for cooking, heating, and industrial use, ensuring long-lasting burn, low ash content, and reliable global distribution.',
   link: 'https://www.facebook.com'
 },
-{
-  id: 3,
-  image: require('../assets/images/char.jpeg'),
+  {
+  id: 2,
+  image: require('../assets/images/chak.jpeg'),
   title: 'Export Grade Charcoal',
   description:
     'Our export-grade charcoal is carefully processed to deliver consistent performance, eco-friendly production, and dependable supply for international markets.',
   link: 'https://www.facebook.com'
 },
-
+  {
+    id: 3,
+    image: require('../assets/images/zo.jpeg'),
+    title: 'Premium Hibiscus Export',
+    description:
+      'We supply high-quality hibiscus flowers for food, beverage, and herbal industries with reliable global distribution.',
+    link: 'https://www.facebook.com'
+  },
 {
   id: 4,
   image: require('../assets/images/wo.jpeg'),
@@ -35,6 +34,39 @@ var heroData = [
     'We provide high-quality hibiscus flowers for food, beverage, and herbal industries, ensuring rich color, natural taste, and global supply reliability.',
   link: 'https://www.facebook.com'
 },
+  
+{
+  id: 5,
+  image: require('../assets/images/sesame.jpeg'),
+  title: 'Sesame Seed Export',
+  description:
+    'We supply premium sesame seeds suitable for oil extraction and food processing, ensuring high purity, excellent oil content, and global distribution.',
+  link: 'https://www.facebook.com'
+},
+  {
+  id: 6,
+  image: require('../assets/images/clear.jpeg'),
+  title: 'Clearing and Forwarding Services',
+  description:
+    'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely cargo handling, and reliable delivery across local and international routes.',
+  link: 'https://www.facebook.com'
+},
+  {
+  id: 7,
+  image: require('../assets/images/plas.jpeg'),
+  title: 'Plastic Container Production',
+  description:
+    'We manufacture durable and high-quality plastic containers for storage, packaging, and industrial use, ensuring strength, safety, and long-lasting performance.',
+  link: 'https://www.facebook.com'
+},
+  {
+  id: 8,
+  image: require('../assets/images/office.jpeg'), // make sure this image exists
+  title: 'Corporate Office',
+  description:
+    'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
+  link: 'https://www.facebook.com'
+}
 {
   id: 5,
   image: require('../assets/images/zobo.jpeg'),
@@ -43,39 +75,18 @@ var heroData = [
     'Our dried hibiscus is processed under strict standards to maintain purity, freshness, and suitability for export and large-scale production.',
   link: 'https://www.facebook.com'
 },
+  
 
 {
-  id: 6,
-  image: require('../assets/images/sesame.jpeg'),
-  title: 'Sesame Seed Export',
-  description:
-    'We supply premium sesame seeds suitable for oil extraction and food processing, ensuring high purity, excellent oil content, and global distribution.',
-  link: 'https://www.facebook.com'
-},
-{
-  id: 7,
+  id: 10,
   image: require('../assets/images/ses.jpeg'),
   title: 'Natural Sesame Supply',
   description:
     'Our sesame seeds are carefully sourced and cleaned to meet international standards, making them ideal for export and industrial use.',
   link: 'https://www.facebook.com'
 },
-{
-  id: 8,
-  image: require('../assets/images/clear.jpeg'),
-  title: 'Clearing and Forwarding Services',
-  description:
-    'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely cargo handling, and reliable delivery across local and international routes.',
-  link: 'https://www.facebook.com'
-},
-{
-  id: 9,
-  image: require('../assets/images/plas.jpeg'),
-  title: 'Plastic Container Production',
-  description:
-    'We manufacture durable and high-quality plastic containers for storage, packaging, and industrial use, ensuring strength, safety, and long-lasting performance.',
-  link: 'https://www.facebook.com'
-}
+
+
 ];
 
 function AppHero() {
