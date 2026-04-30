@@ -41,7 +41,7 @@ var heroData = [
   description:
     'We supply high-quality sesame seeds for food processing and oil production, ensuring high purity, excellent oil content, and reliable global distribution.',
   link: 'https://www.facebook.com'
-}
+},
               {
   id: 6,
   image: require('../assets/images/plas.jpeg'),
