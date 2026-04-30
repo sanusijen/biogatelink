@@ -66,7 +66,7 @@ var heroData = [
   description:
     'Our sesame seeds are carefully sourced and cleaned to meet international standards, making them ideal for export and industrial use.',
   link: 'https://www.facebook.com'
-},
+}
 
 
 ];
