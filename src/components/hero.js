@@ -26,33 +26,24 @@ var heroData = [
     'Our export-grade charcoal is carefully processed to deliver consistent performance, eco-friendly production, and dependable supply for international markets.',
   link: 'https://www.facebook.com'
 },
-  {
-    id: 4,
-    image: require('../assets/images/zo.jpeg'),
-    title: 'Premium Hibiscus Export',
-    description:
-      'We supply high-quality hibiscus flowers for food, beverage, and herbal industries with reliable global distribution.',
-    link: 'https://www.facebook.com'
-  },
-{
-  id: 5,
+      {
+  id: 4,
   image: require('../assets/images/wo.jpeg'),
   title: 'Premium Hibiscus Export',
   description:
     'We provide high-quality hibiscus flowers for food, beverage, and herbal industries, ensuring rich color, natural taste, and global supply reliability.',
   link: 'https://www.facebook.com'
 },
-  
-  {
-  id: 6,
-  image: require('../assets/images/clear.jpeg'),
-  title: 'Clearing and Forwarding Services',
+{
+  id: 5,
+  image: require('../assets/images/sesame.jpeg'), // make sure this image exists
+  title: 'Premium Sesame Seed Export',
   description:
-    'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely cargo handling, and reliable delivery across local and international routes.',
+    'We supply high-quality sesame seeds for food processing and oil production, ensuring high purity, excellent oil content, and reliable global distribution.',
   link: 'https://www.facebook.com'
-},
-  {
-  id: 7,
+}
+              {
+  id: 6,
   image: require('../assets/images/plas.jpeg'),
   title: 'Plastic Container Production',
   description:
@@ -60,14 +51,18 @@ var heroData = [
   link: 'https://www.facebook.com'
 },
 
-{
-  id: 8,
-  image: require('../assets/images/ses.jpeg'),
-  title: 'Natural Sesame Supply',
+  
+  {
+  id: 7,
+  image: require('../assets/images/clear.jpeg'),
+  title: 'Clearing and Forwarding Services',
   description:
-    'Our sesame seeds are carefully sourced and cleaned to meet international standards, making them ideal for export and industrial use.',
+    'We provide efficient clearing and forwarding services, ensuring smooth customs processing, timely cargo handling, and reliable delivery across local and international routes.',
   link: 'https://www.facebook.com'
-}
+},
+
+
+
 
 
 ];
