@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 var heroData = [
       {
   id: 1,
-  image: require('../assets/images/building2.jpeg'), // make sure this image exists
+  image: require('../assets/images/building3.jpeg'), // make sure this image exists
   title: 'Corporate Office',
   description:
     'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
