@@ -10,7 +10,7 @@ var heroData = [
     'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
   link: 'https://www.facebook.com'
 },
-    {
+ {
   id: 2,
   image: require('../assets/images/ch.jpeg'),
   title: 'Premium Charcoal Supply',
@@ -49,9 +49,7 @@ var heroData = [
   description:
     'We manufacture durable and high-quality plastic containers for storage, packaging, and industrial use, ensuring strength, safety, and long-lasting performance.',
   link: 'https://www.facebook.com'
-},
-
-  
+}, 
   {
   id: 7,
   image: require('../assets/images/clear.jpeg'),
