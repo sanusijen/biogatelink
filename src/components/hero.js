@@ -69,20 +69,7 @@ var heroData = [
 
 function AppHero() {
 
-  const captionStyle = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    textAlign: 'center',
-    color: '#fff',
-    width: '80%',
-    maxWidth: '800px',
-    background: 'rgba(0,0,0,0.4)',
-    padding: '25px',
-    borderRadius: '12px',
-    backdropFilter: 'blur(4px)',
-  };
+ 
 
   const titleStyle = {
     fontSize: '32px',
