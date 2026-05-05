@@ -42,7 +42,7 @@ const blogData = [
     time: 'Available',
     quantity: 'Bulk Supply',
     title: 'Lump Wood Charcoal',
-    description: 'We supply high-quality hibiscus flowers in both dried and fresh forms, available in bulk quantities for local and export markets.',
+    description: 'We supply high-quality hibiscus flowers in both dried and fresh forms,available in bulk quantities for local and export markets.',
   },
   {
     id: 2,
