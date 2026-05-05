@@ -81,7 +81,7 @@ const blogData = [
   time: 'Available',
   quantity: 'Bulk Supply',
   title: 'Hibiscus',
-  description: 'We supply high-quality dried hibiscus flowers suitable for food, beverage, and herbal industries, ensuring rich color, natural taste, and reliable bulk availability for local and export markets.',
+  description: 'We supply high-quality dried hibiscus flowers suitable for food, beverage, and herbal industries, natural taste, and reliable bulk availability for local and export markets.',
 }
 ];
 
