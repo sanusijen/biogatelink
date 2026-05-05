@@ -11,7 +11,6 @@ const cardStyle = {
   transition: '0.3s',
   marginBottom: '25px'
 };
-
 const titleStyle = {
   fontWeight: '700',
   color: '#002244',
