@@ -20,10 +20,11 @@ function App() {
       <main>
         <AppHero />
         <AppAbout />
+        <AppProducts />
         <AppServices />
         <AppWorks />
         <AppTeams />
-        <AppProducts />
+        
         <AppContact />
       </main>
       <footer id="footer">
