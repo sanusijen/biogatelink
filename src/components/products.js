@@ -35,30 +35,30 @@ const sectionTitle = {
 };
 
 const blogData = [
-  {
-    id: 1,
-    image: require('../assets/images/bri.jpeg'),
-    time: 'Available',
-    quantity: 'Bulk Supply',
-    title: 'Lump Wood Charcoal',
-    description: 'We supply high-quality hibiscus flowers in both dried and fresh forms,available in bulk quantities for local and export markets.',
-  },
-  {
-    id: 2,
-    image: require('../assets/images/charcoal.jpeg'),
-    time: 'Available',
-    quantity: 'Bulk Supply',
-    title: 'Charcoal',
-    description: 'Premium-grade charcoal supplied in large quantities at competitive prices with reliable nationwide delivery.',
-  },
-  {
-    id: 3,
-    image: require('../assets/images/fingers.jpeg'),
-    time: 'Available',
-    quantity: 'Bulk Supply',
-    title: 'Soybeans',
-    description: 'We provide top-quality soybeans suitable for industrial and domestic use, available in bulk across Nigeria.',
-  },
+{
+  id: 1,
+  image: require('../assets/images/bri.jpeg'),
+  time: 'Available',
+  quantity: 'Bulk Supply',
+  title: 'Briquettes Charcoal',
+  description: 'Our briquettes charcoal is processed for uniform shape and consistent performance, offering long-lasting burn, low smoke, and high efficiency for cooking and industrial use.',
+},
+{
+  id: 2,
+  image: require('../assets/images/charcoal.jpeg'),
+  time: 'Available',
+  quantity: 'Bulk Supply',
+  title: 'Lump Charcoal',
+  description: 'We supply premium lump charcoal made from natural hardwood, providing high heat output, low ash content, and reliable performance for grilling, heating, and export.',
+},
+{
+  id: 3,
+  image: require('../assets/images/fingers.jpeg'),
+  time: 'Available',
+  quantity: 'Bulk Supply',
+  title: 'Fingers Charcoal',
+  description: 'We supply high-quality finger charcoal known for its uniform size, quick ignition, and efficient heat output, making it ideal for grilling, cooking, and commercial use.',
+},
   {
     id: 4,
     image: require('../assets/images/ginger.jpeg'),
