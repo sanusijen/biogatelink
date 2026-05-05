@@ -53,7 +53,7 @@ const blogData = [
   },
   {
     id: 3,
-    image: require('../assets/images/soya.jpeg'),
+    image: require('../assets/images/fingers.jpeg'),
     time: 'Available',
     quantity: 'Bulk Supply',
     title: 'Soybeans',
