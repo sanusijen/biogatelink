@@ -38,10 +38,10 @@ const sectionTitle = {
 const blogData = [
   {
     id: 1,
-    image: require('../assets/images/zobo.jpeg'),
+    image: require('../assets/images/lumb.jpeg'),
     time: 'Available',
     quantity: 'Bulk Supply',
-    title: 'Hibiscus (Zobo)',
+    title: 'Lump Wood Charcoal',
     description: 'We supply high-quality hibiscus flowers in both dried and fresh forms, available in bulk quantities for local and export markets.',
   },
   {
