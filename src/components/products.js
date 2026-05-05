@@ -166,11 +166,12 @@ const ictData = [
 
 function AppProducts() {
   return (
-    <section  section
-  id="products"style={{ padding: '60px 20px', background: '#f5f7fa' }}>
+    <section
+      id="products"
+      style={{ padding: '60px 20px', background: '#f5f7fa' }}
+    >
       <Container>
 
-        {/* Main Title */}
         <h2 style={titleStyle}>Our Products & Services</h2>
         <p style={subtitleStyle}>
           Delivering quality, reliability, and value across agriculture, importation, and technology solutions.
@@ -182,7 +183,11 @@ function AppProducts() {
           {blogData.map(item => (
             <Col md={4} key={item.id}>
               <Card style={cardStyle}>
-                <Card.Img variant="top" src={item.image} style={{ height: '200px', objectFit: 'cover' }} />
+                <Card.Img
+                  variant="top"
+                  src={item.image}
+                  style={{ height: '200px', objectFit: 'cover' }}
+                />
                 <Card.Body>
                   <small style={{ color: 'green' }}>● {item.time}</small>
                   <Card.Title style={{ fontWeight: '600', marginTop: '10px' }}>
@@ -206,7 +211,11 @@ function AppProducts() {
           {importData.map(item => (
             <Col md={4} key={item.id}>
               <Card style={cardStyle}>
-                <Card.Img variant="top" src={item.image} style={{ height: '200px', objectFit: 'cover' }} />
+                <Card.Img
+                  variant="top"
+                  src={item.image}
+                  style={{ height: '200px', objectFit: 'cover' }}
+                />
                 <Card.Body>
                   <small style={{ color: 'green' }}>● {item.time}</small>
                   <Card.Title style={{ fontWeight: '600', marginTop: '10px' }}>
@@ -230,7 +239,11 @@ function AppProducts() {
           {ictData.map(item => (
             <Col md={4} key={item.id}>
               <Card style={cardStyle}>
-                <Card.Img variant="top" src={item.image} style={{ height: '200px', objectFit: 'cover' }} />
+                <Card.Img
+                  variant="top"
+                  src={item.image}
+                  style={{ height: '200px', objectFit: 'cover' }}
+                />
                 <Card.Body>
                   <small style={{ color: 'green' }}>● {item.time}</small>
                   <Card.Title style={{ fontWeight: '600', marginTop: '10px' }}>
@@ -252,5 +265,4 @@ function AppProducts() {
     </section>
   );
 }
-
 export default AppProducts;
