@@ -65,7 +65,7 @@ const blogData = [
     time: 'Available',
     quantity: 'Bulk Supply',
     title: 'Ginger',
-    description: 'Fresh and dried ginger supplied in large quantities, carefully sourced and processed for quality assurance.',
+    description: 'We supply fresh and dried ginger in large quantities, carefully sourced and processed to maintain strong aroma, natural flavor, and high quality, making it suitable for food production, pharmaceuticals, and export markets.',
   },
   {
     id: 5,
@@ -73,7 +73,7 @@ const blogData = [
     time: 'Available',
     quantity: 'Bulk Supply',
     title: 'Sesame Seeds',
-    description: 'High-grade sesame seeds available in bulk, ideal for export and industrial processing.',
+   description: 'We supply high-grade sesame seeds in bulk, ideal for oil extraction, food processing, and export markets, ensuring high purity, excellent oil content, natural freshness, and compliance with international quality standards.',
   },
   {
   id: 6,
