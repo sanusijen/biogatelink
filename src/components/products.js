@@ -76,13 +76,13 @@ const blogData = [
     description: 'High-grade sesame seeds available in bulk, ideal for export and industrial processing.',
   },
   {
-    id: 6,
-    image: require('../assets/images/gap.jpeg'),
-    time: 'Available',
-    quantity: 'Bulk Supply',
-    title: 'General Agricultural Products',
-    description: 'We supply a wide range of agricultural products tailored to meet the needs of wholesalers and industries.',
-  }
+  id: 6,
+  image: require('../assets/images/hibiscus.jpeg'),
+  time: 'Available',
+  quantity: 'Bulk Supply',
+  title: 'Hibiscus',
+  description: 'We supply high-quality dried hibiscus flowers suitable for food, beverage, and herbal industries, ensuring rich color, natural taste, and reliable bulk availability for local and export markets.',
+}
 ];
 
 const importData = [
