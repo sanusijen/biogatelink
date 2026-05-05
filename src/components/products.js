@@ -162,7 +162,7 @@ const ictData = [
 
 function AppProducts() {
   return (
-    <section  section
+    <section
   id="products"style={{ padding: '60px 20px', background: '#f5f7fa' }}>
       <Container>
 
