@@ -2,7 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const heroData = [
-
   {
     id: 1,
     image: require('../assets/images/ch.jpeg'),
