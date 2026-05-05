@@ -2,16 +2,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const heroData = [
+
   {
     id: 1,
-    image: require('../assets/images/building3.jpeg'),
-    title: 'Corporate Office',
-    description:
-      'Our corporate office, located at 51 Ring Road, Kano State, Nigeria, serves as the central hub for coordinating operations, logistics, and client relations with professionalism and efficiency.',
-    link: 'https://www.facebook.com'
-  },
-  {
-    id: 2,
     image: require('../assets/images/ch.jpeg'),
     title: 'Premium Charcoal Supply',
     description:
@@ -19,7 +12,7 @@ const heroData = [
     link: 'https://www.facebook.com'
   },
   {
-    id: 3,
+    id: 2,
     image: require('../assets/images/chak.jpeg'),
     title: 'Export Grade Charcoal',
     description:
@@ -27,7 +20,7 @@ const heroData = [
     link: 'https://www.facebook.com'
   },
   {
-    id: 4,
+    id: 3,
     image: require('../assets/images/wo.jpeg'),
     title: 'Premium Hibiscus Export',
     description:
@@ -35,7 +28,7 @@ const heroData = [
     link: 'https://www.facebook.com'
   },
   {
-    id: 5,
+    id: 4,
     image: require('../assets/images/ses.jpeg'),
     title: 'Premium Sesame Seed Export',
     description:
@@ -43,7 +36,7 @@ const heroData = [
     link: 'https://www.facebook.com'
   },
   {
-    id: 6,
+    id: 5,
     image: require('../assets/images/plas.jpeg'),
     title: 'Plastic Container Production',
     description:
@@ -51,7 +44,7 @@ const heroData = [
     link: 'https://www.facebook.com'
   },
   {
-    id: 7,
+    id: 6,
     image: require('../assets/images/clear.jpeg'),
     title: 'Clearing & Forwarding Services',
     description:
