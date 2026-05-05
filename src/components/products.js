@@ -10,14 +10,12 @@ const cardStyle = {
   transition: '0.3s',
   marginBottom: '25px'
 };
-
 const titleStyle = {
   fontWeight: '700',
   color: '#002244',
   textAlign: 'center',
   marginBottom: '10px'
 };
-
 const subtitleStyle = {
   textAlign: 'center',
   color: '#666',
@@ -26,7 +24,6 @@ const subtitleStyle = {
   marginLeft: 'auto',
   marginRight: 'auto'
 };
-
 const sectionTitle = {
   marginTop: '50px',
   marginBottom: '20px',
