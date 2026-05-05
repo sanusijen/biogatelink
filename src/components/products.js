@@ -45,7 +45,7 @@ const blogData = [
   },
   {
     id: 2,
-    image: require('../assets/images/lumb.jpeg'),
+    image: require('../assets/images/charcoal.jpeg'),
     time: 'Available',
     quantity: 'Bulk Supply',
     title: 'Charcoal',
