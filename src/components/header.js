@@ -85,9 +85,7 @@ function AppHeader() {
           onMouseLeave={(e) => e.target.style.color = '#fff'}
         >
           <FaInstagram />
-        </a>
-
-       
+        </a>   
 <a
   href="https://www.tiktok.com/@biogateinternational"
   target="_blank"
