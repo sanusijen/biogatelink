@@ -88,6 +88,16 @@ function AppHeader() {
         </a>
 
        
+<a
+  href="https://www.tiktok.com/@biogateinternational"
+  target="_blank"
+  rel="noreferrer"
+  style={iconStyle}
+  onMouseEnter={(e) => e.target.style.color = '#000'}
+  onMouseLeave={(e) => e.target.style.color = '#fff'}
+>
+  <FaTiktok />
+</a>
 
       </div>
 
