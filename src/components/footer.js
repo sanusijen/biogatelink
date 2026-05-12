@@ -27,7 +27,7 @@ function AppFooter() {
       <div className="socials">
         <ul>
     <li><a 
-          href="https://wa.me/2348034574285"><i className="FaFacebookF"></i></a><li>
+          href="https://wa.me/2348034574285"><i className=" FaWhatsapp"></i></a><li>
           <li><a
           href="https://www.facebook.com/share/1TwUHEAsiy/"><i className="fab fa-facebook-f"></i></a></li>
           <li><a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a></li>
