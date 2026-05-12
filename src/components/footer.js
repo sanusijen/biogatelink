@@ -55,7 +55,7 @@ function AppFooter() {
               rel="noopener noreferrer"
               style={iconStyle}
               onMouseEnter={(e) => e.target.style.color = '#25D366'}
-              onMouseLeave={(e) => e.target.style.color = '#fff'}
+              onMouseLeave={(e) => e.target.style.color = 'linear-gradient(90deg, #002244, #004080)'}
             >
               <FaWhatsapp />
             </a>
