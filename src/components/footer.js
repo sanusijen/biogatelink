@@ -31,7 +31,7 @@ function AppFooter() {
   }
 
   const iconStyle = {
-    color: '#fff',
+    color: 'blue',
     textDecoration: 'none',
     transition: '0.3s',
     fontSize: '18px'
