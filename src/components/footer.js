@@ -69,7 +69,7 @@ function AppFooter() {
               rel="noopener noreferrer"
               style={iconStyle}
               onMouseEnter={(e) => e.target.style.color = '#1877F2'}
-              onMouseLeave={(e) => e.target.style.color = '#fff'}
+              onMouseLeave={(e) => e.target.style.color = 'linear-gradient(90deg, #002244, #004080)'}
             >
               <FaFacebookF />
             </a>
@@ -83,7 +83,7 @@ function AppFooter() {
               rel="noopener noreferrer"
               style={iconStyle}
               onMouseEnter={(e) => e.target.style.color = '#1DA1F2'}
-              onMouseLeave={(e) => e.target.style.color = '#fff'}
+              onMouseLeave={(e) => e.target.style.color = 'linear-gradient(90deg, #002244, #004080)'}
             >
               <FaTwitter />
             </a>
@@ -97,7 +97,7 @@ function AppFooter() {
               rel="noopener noreferrer"
               style={iconStyle}
               onMouseEnter={(e) => e.target.style.color = '#E1306C'}
-              onMouseLeave={(e) => e.target.style.color = '#fff'}
+              onMouseLeave={(e) => e.target.style.color = 'linear-gradient(90deg, #002244, #004080)'}
             >
               <FaInstagram />
             </a>
@@ -111,7 +111,7 @@ function AppFooter() {
               rel="noopener noreferrer"
               style={iconStyle}
               onMouseEnter={(e) => e.target.style.color = '#000'}
-              onMouseLeave={(e) => e.target.style.color = '#fff'}
+              onMouseLeave={(e) => e.target.style.color = 'linear-gradient(90deg, #002244, #004080)'}
             >
               <FaTiktok />
             </a>
