@@ -12,7 +12,7 @@ const heroData = [
   },
   {
     id: 2,
-    image: require('../assets/images/chak.jpeg'),
+    image: require('../assets/images/cha1.png'),
     title: 'Export Grade Charcoal',
     description:
       'Eco-friendly export-grade charcoal processed for consistent performance and international standards.',
@@ -20,7 +20,7 @@ const heroData = [
   },
   {
     id: 3,
-    image: require('../assets/images/wo.jpeg'),
+    image: require('../assets/images/wom.png'),
     title: 'Premium Hibiscus Export',
     description:
       'High-quality hibiscus flowers for food, beverage, and herbal industries with rich color and natural taste.',
