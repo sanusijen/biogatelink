@@ -37,7 +37,7 @@ const sectionTitle = {
 const blogData = [
 {
   id: 1,
-  image: require('../assets/images/bri.jpeg'),
+  image: require('../assets/images/cha1.png'),
   time: 'Available',
   quantity: 'Bulk Supply',
   title: 'Briquettes Charcoal',
@@ -45,7 +45,7 @@ const blogData = [
 },
 {
   id: 2,
-  image: require('../assets/images/charcoal.jpeg'),
+  image: require('../assets/images/cha2.png'),
   time: 'Available',
   quantity: 'Bulk Supply',
   title: 'Lump Charcoal',
@@ -53,7 +53,7 @@ const blogData = [
 },
 {
   id: 3,
-  image: require('../assets/images/fingers.jpeg'),
+  image: require('../assets/images/cha3.png'),
   time: 'Available',
   quantity: 'Bulk Supply',
   title: 'Fingers Charcoal',
