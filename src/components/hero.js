@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 const heroData = [
   {
     id: 1,
-    image: require('../assets/images/ch.jpeg'),
+    image: require('../assets/images/cha2.png'),
     title: 'Premium Charcoal Supply',
     description:
       'We supply high-quality charcoal for cooking, heating, and industrial use with long-lasting burn and low ash content.',
